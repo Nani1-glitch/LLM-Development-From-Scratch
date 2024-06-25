@@ -1,76 +1,81 @@
-# LLM-Development-From-Scratch
+# 🌟 LLM-Development-From-Scratch 🌟
 
 This repository contains code to build a Large Language Model (LLM) from scratch using Python. The model is trained on text data and can be used for various natural language processing tasks.
 
- Prerequisites
+## 🚀 Prerequisites
 
-- Python 3.x
-- Matplotlib
-- NumPy
-- PyLZMA
-- IPyKernel
-- Jupyter Notebook
-- PyTorch with CUDA support
+- 🐍 Python 3.x
+- 📊 Matplotlib
+- 🔢 NumPy
+- 📦 PyLZMA
+- 📘 IPyKernel
+- 📝 Jupyter Notebook
+- 🔥 PyTorch with CUDA support
 
- Installation
+## 🛠️ Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-bash
-git clone https://github.com/Nani1-glitch/LLM-Development-From-Scratch.git
+    ```bash
+    git clone https://github.com/Nani1-glitch/LLM-Development-From-Scratch.git
+    ```
 
+2. **Create a virtual environment and activate it:**
 
-2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv llm-env
+    source llm-env/bin/activate  # On Windows, use llm-env\Scripts\activate
+    ```
 
-bash
-python -m venv llm-env
-source llm-env/bin/activate  # On Windows, use llm-env\Scripts\activate
+3. **Install the required packages:**
 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-3. Install the required packages:
+4. **Download and install Visual Studio C++ tools if you encounter an error while installing PyLZMA.**
 
-bash
-pip install -r requirements.txt
+5. **Install PyTorch with CUDA support:**
 
+    ```bash
+    pip install torch --index-url https://download.pytorch.org/whl/cu118
+    ```
 
-4. Download and install Visual Studio C++ tools if you encounter an error while installing PyLZMA.
+6. **Install the Jupyter Notebook kernel:**
 
-5. Install PyTorch with CUDA support:
+    ```bash
+    python -m ipykernel install --user --name=llm-env --display-name "LLM Environment"
+    ```
 
-bash
-pip install torch --index-url https://download.pytorch.org/whl/cu118
+7. **Start the Jupyter Notebook:**
 
+    ```bash
+    jupyter notebook
+    ```
 
-6. Install the Jupyter Notebook kernel:
+8. **Open the `BIGRAM.ipynb` notebook and select the `LLM Environment` kernel.**
 
-bash
-python -m ipykernel install --user --name=llm-env --display-name "LLM Environment"
+## 📝 Usage
 
+1. 📂 **Prepare your text data** by removing any unwanted content (e.g., license information, illustrations).
 
-7. Start the Jupyter Notebook:
+2. 🛠️ **Update the `data_path` variable** in the notebook to point to your text file.
 
-bash
-jupyter notebook
+3. ▶️ **Run the cells** in the notebook to preprocess the data, train the model, and generate text.
 
+4. 🎨 **Customize the model architecture**, hyperparameters, and training process as needed.
 
-8. Open the `BIGRAM.ipynb` notebook and select the `LLM Environment` kernel.
+## 🤝 Contributing
 
- Usage
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Contributions are welcome! 🎉
 
-1. Prepare your text data by removing any unwanted content (e.g., license information, illustrations).
+## 📜 License
 
-2. Update the `data_path` variable in the notebook to point to your text file.
+This project is licensed under the [MIT License](LICENSE). 📄
 
-3. Run the cells in the notebook to preprocess the data, train the model, and generate text.
+---
 
-4. Customize the model architecture, hyperparameters, and training process as needed.
-
- Contributing
-
-If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
- License
-
-This project is licensed under the [MIT License] (LICENSE).
-
+👨‍💻 **Developed by:** Nithin Rajulapati  
+📧 **Email:** [nithinrajulapati9999@gmail.com](mailto:nithinrajulapati9999@gmail.com)  
+🔗 **GitHub:** [Nani1-glitch](https://github.com/Nani1-glitch/LLM-Development-From-Scratch)
 
